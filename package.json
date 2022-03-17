@@ -1,0 +1,37 @@
+{
+  "name": "parasite",
+  "version": "1.0.0",
+  "description": "Parasite is a type of nft creature that maintains life by possessing existing nfts.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuTuGu/Parasite.git"
+  },
+  "keywords": [
+    "NFT",
+    "ERC721"
+  ],
+  "author": "KuTuGu",
+  "license": "Mozzila",
+  "bugs": {
+    "url": "https://github.com/KuTuGu/Parasite/issues"
+  },
+  "homepage": "https://github.com/KuTuGu/Parasite#readme",
+  "dependencies": {
+    "ethers": "^5.5.3",
+    "naive-ui": "^2.24.7",
+    "vfonts": "^0.0.3",
+    "vue": "^3.2.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "moralis": "1.2.6",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
